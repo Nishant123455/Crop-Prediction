@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crop Model Api</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class ="login">
+        <h1>Crop Prediction Model</h1>
+        <form action = "{{url_for('predict')}}" method = "post">
+            <input type ="text" name = "Nitrogen" placeholder="nitrogen" required = "required" />
+            <input type ="text" name = "Phosphorus" placeholder="phosphorus" required = "required" />
+            <input type ="text" name = "Potassium" placeholder="Potassium" required = "required" />
+            <input type ="text" name = "Tempurature" placeholder="Tempurature" required = "required" />
+            <input type ="text" name = "Humidity" placeholder="Humidity" required = "required" />
+            <input type ="text" name = "Ph" placeholder="ph value" required = "required" />
+            <input type ="text" name = "Rainfall" placeholder="Rainfall value in cm" required = "required" />
+            <button type="submit" class ="btn btn-primary btn-block btn-large">Result</button>
+        </form>
+
+        <h1 id = predi>
+            {{Result}}
+        </h1>
+    </div>
+</body>
+</html>
