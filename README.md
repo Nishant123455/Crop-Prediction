@@ -74,7 +74,7 @@ $ pip install -r requirements.txt
 
 1. **Start the Flask Server**:
    ```bash
-   $ flask run
+   $ python app.py
    ```
 
 2. **Access the Application**:
