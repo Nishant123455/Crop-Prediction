@@ -5,6 +5,8 @@
 The **Crop Prediction System** is a web-based application designed to assist farmers and agricultural professionals in selecting the best crops for their specific soil and environmental conditions. Using a machine learning model trained on agricultural datasets, the system provides accurate crop recommendations, enhancing productivity and sustainability.
 
 This project combines the power of Flask for backend development with an intuitive frontend built using HTML and CSS, delivering a user-friendly interface and robust functionality.
+Check out [Crop_Prediction](https://crop-prediction-h2fe.onrender.com/)!
+
 
 ---
 
